@@ -31,5 +31,6 @@ To deploy changes, build the page with `scripts/build`, push the changes to `pub
 Then, update the `gh-pages` branch with:
 
 ```bash
-git push origin `git subtree split --prefix public main`:gh-pages --force
+git push origin `git subtree split --prefix public main`:gh-pages
 ```
+Changes should be live now!
