@@ -1,0 +1,25 @@
+$blue-azure: #f0ffff;
+$blue-pastel-light: #e2ecf7;
+$blue-pastel: #A7C7E7;
+$blue-royal: #4169E1;
+$blue-baby-eyes: #A7CCED;
+$blue-jeans: #63ADF2;
+$blue-independence: #545E75;
+$blue-independence-darker: #434b5d;
+$blue-y-mn: #304D6D;
+$blue-air-sup: #82A0BC;
+
+// $background: #fbfbf9;
+$background-gradient: linear-gradient($blue-azure, $blue-pastel-light, $blue-pastel-light, $blue-baby-eyes);
+$font: $blue-independence-darker;
+
+// Links
+$link: $blue-y-mn;
+
+// Links hover / visited
+$link-dark: $blue-jeans;
+
+// Underlining links
+$anchor: $blue-y-mn;
+$anchor-hover: $blue-jeans;
+$at-particle: $blue-jeans;

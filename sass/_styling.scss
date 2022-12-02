@@ -1,0 +1,69 @@
+body {
+  background-image: $background-gradient;
+  color: $font;
+  text-shadow: 1px 1px 1px #fff;
+  font: 300 22px/1.5 "Source Sans Pro", sans-serif;
+}
+
+a, b {
+  font-weight: 400;
+}
+
+a {
+  &, &:visited {
+    color: $link;
+    text-decoration: none;
+    border-bottom: 2px solid $anchor;
+  }
+
+  &:hover, &:focus {
+    color: $link-dark;
+    border-color: $anchor-hover;
+  }
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  margin-top: 45px;
+  font-size: 20px;
+}
+
+.at {
+  color: $at-particle;
+}
+
+.the-pug {
+  // Shrink for retina.
+  width: 320px;
+  height: 242px;
+}
+
+.secondary-content {
+  font-size: 18px;
+}
+
+.long-content {
+  text-align: left;
+  font-size: 18px;
+  max-width: 31em;
+  margin: 45px 0;
+
+  li {
+    margin: 10px 0;
+  }
+}
+
+.links {
+  font-size: 16px;
+  list-style-type: none;
+  padding: 0;
+
+  &__link {
+    display: inline;
+    margin: 0 10px;
+    white-space: nowrap;
+  }
+}
