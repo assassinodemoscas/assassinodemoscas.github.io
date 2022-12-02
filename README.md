@@ -22,15 +22,8 @@ Build with:
 ./script/build
 ```
 
-The content is built in `./public` so simply open up `./public/index.html` on your browser thereafter.
+The content is built in `./docs` so simply open up `./docs/index.html` on your browser thereafter.
 
 ## Deploy
 
-To deploy changes, build the page with `scripts/build`, push the changes to `public` directory to the `main` branch.
-
-Then, update the `gh-pages` branch with:
-
-```bash
-git push origin `git subtree split --prefix public main`:gh-pages
-```
-Changes should be live now!
+To deploy changes, build the page with `scripts/build`, push the changes to `docs` directory to the `main` branch.
