@@ -26,3 +26,10 @@ The content is built in `./public` so simply open up `./public/index.html` on yo
 
 ## Deploy
 
+To deploy changes, build the page with `scripts/build`, push the changes to `public` directory to the `main` branch.
+
+Then, update the `gh-pages` branch with:
+
+```bash
+git push origin `git subtree split --prefix public main`:gh-pages --force
+```
