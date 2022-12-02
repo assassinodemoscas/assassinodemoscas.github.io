@@ -5,7 +5,7 @@ Static website hosted via github pages and available at [luisencerrabodes.me](ht
 
 ## Development
 
-Setup heavily based on [Henrik Nyh](https://henrik.nyh.se/).
+Setup and layout based on [Henrik Nyh](https://henrik.nyh.se/).
 
 Assuming ruby and bundler are already installed:
 
@@ -22,7 +22,8 @@ Build with:
 ./script/build
 ```
 
-The content is built in `./docs` so simply open up `./docs/index.html` on your browser thereafter.
+The content is built in `./docs` since this is the default directory used by github pages. To run locally simply open
+up `./docs/index.html` on your browser thereafter.
 
 ## Deploy
 
