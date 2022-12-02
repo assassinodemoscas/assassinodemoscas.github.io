@@ -35,10 +35,15 @@ h2 {
   color: $at-particle;
 }
 
-.the-pug {
-  // Shrink for retina.
-  width: 320px;
-  height: 242px;
+.pfp {
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+  background-image: url("images/pfp-default.svg");
+  background-size: cover;
+  &:hover {
+    background-image: url("images/pfp-idea.svg");
+  } 
 }
 
 .secondary-content {

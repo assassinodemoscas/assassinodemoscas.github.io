@@ -524,8 +524,8 @@ body {
     padding: 40px 20px;
   }
 }
-.the-pug {
-  margin-bottom: 20px;
+.pfp-container {
+  margin-bottom: 40px;
 }
 
 .small-top-space {
@@ -537,7 +537,7 @@ body {
 }
 
 body {
-  background-image: linear-gradient(#f0ffff, #e2ecf7, #e2ecf7, #A7CCED);
+  background-image: linear-gradient(#f0ffff 80%, #A7CCED);
   color: #434b5d;
   text-shadow: 1px 1px 1px #fff;
   font: 300 22px/1.5 "Source Sans Pro", sans-serif;
@@ -570,9 +570,15 @@ h2 {
   color: #63ADF2;
 }
 
-.the-pug {
-  width: 320px;
-  height: 242px;
+.pfp {
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+  background-image: url("images/pfp-default.svg");
+  background-size: cover;
+}
+.pfp:hover {
+  background-image: url("images/pfp-idea.svg");
 }
 
 .secondary-content {

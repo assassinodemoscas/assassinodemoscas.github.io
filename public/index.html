@@ -7,16 +7,18 @@
     <link rel="shortcut icon" href="/images/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="application.css">
+    <link rel="preload" href="images/pfp-idea.svg" as="image"> 
   </head>
   <body>
     <div class="outer-container">
       <div class="inner-container">
-        <!-- <img src="images/pug_1x.png" srcset="images/pug_2x.png 2x, images/pug_3x.png 3x" alt="" class="the-pug"> -->
+        <!-- PFP is handled as a div to change bg on hover -->
+        <div class="pfp-container">
+            <div class="pfp"></div>
+        </div>
 
         <!-- Who I am -->
         <p>I'm <b>Luís Encerrabodes</b>, a <b>Power Electronics Engineer</b> from Lamego, Portugal.</p>
-
-        <br />
 
         <!-- Current work -->
         <p>
@@ -26,8 +28,6 @@
         <p>
             where I lead Motor & Inverter Control and PCB Design teams.
         </p>
-
-        <br />
 
         <!-- Main contact -->
         <p>
