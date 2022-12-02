@@ -13,18 +13,18 @@ Assuming ruby and bundler are already installed:
 # Install dependencies with bundler.
 bundle install
 
-# Watch SCSS directory and recompile on change.
+# Watch sass directory and recompile on change.
 ./script/watch
 ```
 
-Build with:
+Build SASS with:
 ```
 ./script/build
 ```
 
-The content is built in `./docs` since this is the default directory used by github pages. To run locally simply open
-up `./docs/index.html` on your browser thereafter.
+The CSS is built in `./docs` since this is the default directory used by github pages. To run locally simply open
+up `./docs/index.html` on your browser.
 
 ## Deploy
 
-To deploy changes, build the page with `scripts/build`, push the changes to `docs` directory to the `main` branch.
+To deploy changes, build the CSS with `scripts/build`, push the changes to `docs` directory to the `main` branch.
