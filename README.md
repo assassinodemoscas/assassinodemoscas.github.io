@@ -23,3 +23,6 @@ Build with:
 ```
 
 The content is built in `./public` so simply open up `./public/index.html` on your browser thereafter.
+
+## Deploy
+
